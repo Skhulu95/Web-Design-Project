@@ -33,8 +33,9 @@
             <!-- NAVBAR -->
             <nav aria-label="breadcrumb">
                 <h4 class="logo">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRAOeM_KBsJ7N0np_BBa-zZDSCNuPKvxSMi7cKyULMiT3gjBMrV&usqp=CAU"
-                        alt="Android" style="width: 204px; height: 150px;" />
+                    <h2>
+                        <div class="spinner-border text-danger">SKHULU</div>
+                    </h2>
                 </h4>
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="home.html">Home</a></li>
@@ -48,102 +49,115 @@
         <!-- main page -->
         <main class="page-main">
             <h1><b>ADMIN</b></h1>
-            <!-- A single column for a card -->
+
             <div class="container">
-                <!-- Here's a card -->
-                <div class="card">
-                    <div class="card-header" style="width:20rem;">
-                        <!-- Card profile image -->
-                        <img class="card-img-top"
-                            src="https://scontent.fdur2-1.fna.fbcdn.net/v/t1.0-9/59973500_2739174632775581_5650353919717539840_n.jpg?_nc_cat=103&_nc_sid=8bfeb9&_nc_ohc=_iBj8OnMKYQAX_EJ5oo&_nc_ht=scontent.fdur2-1.fna&oh=15c82a084ba2834a8f2cd3f415dcd775&oe=5EEAB5C0"
-                            style="width: 450px; height: 450px;" alt="Card image" />
-                    </div>
-                    <div class="card-body">
-                
-                        <div class="card-body">
-                            <form action="results.html">
-                                <label for="firstname">First Name</label>
-                                <input type="text" id="firstname" name="firstname" value="Thabiso">
-                                <br>
-                
-                                <label for="lastname">Last Name</label>
-                                <input type="text" id="lastname" name="lastname" value="Klip">
-                                <br>
-                
-                
-                                <label for="email">Email</label>
-                                <input type="email" id="email" name="email" value="thebzklip0@gmail.com">
-                                <br>
-                
-                                <label for="tel">Cel.</label>
-                                <input type="tel" id="tel" name="tel" value="079 4106 966">
-                                <br>
-                
-                                <label for="Address">Address</label>
-                                <input type="Address" id="Address" name="Address" value="55 ny2 St Guguletu, Cape Town">
-                                <br>
-                
-                            </form>
-                        </div>
-                    </div>
-                    <div class="card-footer">
-                        <!-- Button trigger user modal -->
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#user1">
-                            Admin's More Info
-                        </button>
-                
-                        <!-- The user Modal -->
-                        <div class="modal fade" id="user1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-                            aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">
-                                            <h5>NEXT OF KIN DETAILS</h5>
-                                        </h5>
-                                        <form action="/action_page.php">
-                                            <label for="next of kin">Next of kin.</label>
-                                            <input type="text" id="text" name="next of kin" value="Vuyelwa Klip">
-                                            <br>
-                
-                                            <label for="relationship">Relationship</label>
-                                            <input type="text" id="text" name="relationship" value="Mother">
-                                            <br>
-                
-                
-                                            <label for="email">Email</label>
-                                            <input type="email" id="email" name="email" value="klip.vm@gmail.com">
-                                            <br>
-                
-                                            <label for="tel">Cel.</label>
-                                            <input type="tel" id="tel" name="tel" value="0725995205">
-                                            <br>
-                
-                                        </form>
-                
-                
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-primary" data-dismiss="modal">
-                                                EXIT
-                                            </button>
-                
-                
-                
-                
-                
+                <div class="row">
+                    <div class="col">
+                        <div class="container">
+                            <div class="row">
+                                <!-- Our Simple Card Goes Here -->
+                                <!-- Here's a card -->
+                                <div class="card">
+                                    <div class="card-header" style="width:20rem;">
+                                        <!-- Card profile image -->
+                                        <img class="card-img-top"
+                                            src="https://scontent.fdur2-1.fna.fbcdn.net/v/t1.0-9/59973500_2739174632775581_5650353919717539840_n.jpg?_nc_cat=103&_nc_sid=8bfeb9&_nc_ohc=_iBj8OnMKYQAX_EJ5oo&_nc_ht=scontent.fdur2-1.fna&oh=15c82a084ba2834a8f2cd3f415dcd775&oe=5EEAB5C0"
+                                            style="width: 310px; height: 450px;" alt="Card image" />
+                                    </div>
+                                    <div class="card-body">
+                                
+                                        <div class="card-body">
+                                            <form action="results.html">
+                                                <label for="firstname">First Name</label><br>
+                                                <input type="text" id="firstname" name="firstname" value="Thabiso">
+                                                <br>
+                                
+                                                <label for="lastname">Last Name</label><br>
+                                                <input type="text" id="lastname" name="lastname" value="Klip">
+                                                <br>
+                                
+                                
+                                                <label for="email">Email</label><br>
+                                                <input type="email" id="email" name="email" value="thebzklip0@gmail.com">
+                                                <br>
+                                
+                                                <label for="tel">Cel.</label><br>
+                                                <input type="tel" id="tel" name="tel" value="079 4106 966">
+                                                <br>
+                                
+                                                <label for="Address">Address</label><br>
+                                                <input type="Address" id="Address" name="Address" value="55 ny2 St Guguletu, Cape Town">
+                                                <br>
+                                
+                                            </form>
                                         </div>
                                     </div>
+                                    <div class="card-footer">
+                                        <!-- Button trigger user modal -->
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#user1">
+                                            Admin's More Info
+                                        </button>
+                                
+                                        <!-- The user Modal -->
+                                        <div class="modal fade" id="user1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                                            aria-hidden="true">
+                                            <div class="modal-dialog" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">
+                                                            <h5>NEXT OF KIN DETAILS</h5>
+                                                        </h5>
+                                                        <form action="/action_page.php">
+                                                            <label for="next of kin">Next of kin.</label><br>
+                                                            <input type="text" id="text" name="next of kin" value="Vuyelwa Klip">
+                                                            <br>
+                                
+                                                            <label for="relationship">Relationship</label><br>
+                                                            <input type="text" id="text" name="relationship" value="Mother">
+                                                            <br>
+                                
+                                
+                                                            <label for="email">Email</label><br>
+                                                            <input type="email" id="email" name="email" value="klip.vm@gmail.com">
+                                                            <br>
+                                
+                                                            <label for="tel">Cel.</label><br>
+                                                            <input type="tel" id="tel" name="tel" value="0725995205">
+                                                            <br>
+                                
+                                                        </form>
+                                
+                                
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-primary" data-dismiss="modal">
+                                                                EXIT
+                                                            </button>
+                                
+                                
+                                
+                                
+                                
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End of user modal -->
+                                
+                                        </div>
+                                
+                                        <!-- End of card -->
+                                    </div>
                                 </div>
+                                <!-- End of single column -->
                             </div>
-                            <!-- End of user modal -->
-                
-                        </div>
-                
-                        <!-- End of card -->
                     </div>
                 </div>
-                <!-- End of single column -->
-        
+            </div>
+            <!-- A single column for a card -->
+            <div class="container">
+                <div class="row">
+                    
+                </div>
             </div>
             <!-- end of row-->
         

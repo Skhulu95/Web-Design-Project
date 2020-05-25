@@ -126,6 +126,7 @@ body {
   align-content: center;
   justify-content: space-around;
   
+  
 }
 
 
@@ -184,3 +185,7 @@ body {
   }
 }
 /*-------------------------- LOGO--------------*/
+.column {
+  width: fit-content;
+  height: fit-content;
+}
